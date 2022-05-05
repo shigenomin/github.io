@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
     <head>
         <meta charset="UTF-8">
         <title>shigenominSite</title>
@@ -27,14 +27,20 @@
         <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
         <link rel="shortcut icon" href="img/favicon.ico">
         <link rel="stylesheet" href="css/index.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            $(function() {
+                $("#header").load("includes/header.html");
+                $("#side").load("includes/side.html");
+                $("#footer").load("includes/footer.html");
+            });
+        </script>
     </head>
     <body>
-        <header>
-            <h1>h1 text</h1>
-        </header>
-        <p>p tag text</p>
-        <footer>
-            <a href="./PrivacyPolicy/index.html">プライベートポリシー</a>
-        </footer>
+        <div id="header"></div>
+        <div id="side"></div>
+        <div id="main">メインコンテンツ</div>
+        <div id="footer"></div>
     </body>
 </html>
