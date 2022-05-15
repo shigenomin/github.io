@@ -4,12 +4,12 @@
         background-color: #000;
         color: #fff;
     }
+}
 
-    .profile-image {
-        width:180px;
-        height:180px;
-        border-radius:50%;
-        background-position:center;
-        border:4px solid #CCFFCC;
-    }
+.profile-image {
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    background-position:center;
+    border:4px solid #CCFFCC;
 }
