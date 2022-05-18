@@ -13,3 +13,11 @@
     background-position:center;
     border:4px solid #CCFFCC;
 }
+
+.header-image {
+    width:70%;
+}
+
+.text-align-center {
+    text-align: center;
+}
