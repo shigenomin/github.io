@@ -62,7 +62,8 @@
 }
 
 /*** その他 ***/
-.privacy-a {
+.footer-a {
     bottom: 0;
     position: absolute;
-margin-left: -70px;}
+    margin-left: -70px;
+}

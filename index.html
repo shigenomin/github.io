@@ -35,6 +35,16 @@
                 $("#side").load("includes/side.html");
                 $("#footer").load("includes/footer.html");
             });
+
+            $(function() {
+                var currentFileName = window.location.href.split('/').pop();
+                if(currentFileName == 'index.html'){
+                    document.getElementsByClassName('js-home')[0].style.display = 'none';
+                }
+                if(currentFileName == 'privacy.html'){
+                    document.getElementsByClassName('js-privacy')[0].style.display = 'none';
+                }
+            });
         </script>
     </head>
     <body class="text-align-webkit-center">
