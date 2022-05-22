@@ -48,7 +48,7 @@
         </div>
 
         <script>
-            $(function() {
+            function domFinished() {
                 var currentArray = window.location.href.split('/');
                 var currentDirectory = currentArray[currentArray.length - 2];
                 if(currentDirectory == 'privacyPolicy'){
@@ -58,7 +58,8 @@
                     var home = document.getElementsByClassName('js-home')[0];
                     home.style.display = 'none';
                 }
-            });
+            };
+            document.addEventListener('DOMContentLoaded', domFinished);
         </script>
     </body>
 </html>
